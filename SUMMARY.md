@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Linux Cyberpatriot Notes](README.md)
+* [Notes](README.md)
+* [Linux Cyberpatriot Notes](linux-cyberpatriot-notes.md)
