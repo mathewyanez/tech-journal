@@ -1,4 +1,8 @@
 # Table of contents
 
-* [Notes](README.md)
-* [Linux Cyberpatriot Notes](linux-cyberpatriot-notes.md)
+* [:\]](README.md)
+
+## NCAE&#x20;
+
+* [Linux Cyberpatriot Notes](ncae/linux-cyberpatriot-notes.md)
+* [Page 1](ncae/page-1.md)

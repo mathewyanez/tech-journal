@@ -1,3 +1,3 @@
-# Notes
+# :]
 
-First Page
+Welcome to My Tech Journal!
