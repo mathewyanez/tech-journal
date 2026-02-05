@@ -17,38 +17,39 @@ In this activity, you will gain practical experience with advanced firewall conf
 
 **It shows the name group, profile, whether or not it's enabled along with authorized permissions, computers, and ports.**
 
-*
-  *
-    *
-      1. What is the default behavior… block or allow?
+
+
+1. What is the default behavior… block or allow?
 
 **From the large amount of allows, going to go with allow.**
 
-*
-  *
-    *
-      1. Why might this default make sense from a security perspective?**It saves a lot of time, but from a security perspective it makes sure that services that require these services to function are able to, and that way rules that need not be allowed can be cut off at a later date.**
-  1. Create a new inbound rule to block Remote Desktop.
-  * New Rule → Port → TCP → Specific port: 3389
-  * Block the connection → All profiles → Name it "Block RDP"
-  2. Create a new inbound rule to block a specific neighbor's IP completely:
-  * New Rule → Custom → All programs
-  * Any protocol → Scope tab
-  * Under "Remote IP address" → "These IP addresses" → Add \[neighbor's IP]
-  * Under "Local IP address" → "These IP addresses" → Add \[neighbor 2’s IP]
-  * Block → All profiles → Name it "Block \[Neighbor 2’s Name]"
-  * **Deliverable 2:** Take a screenshot showing your custom firewall rules list
-  * ![](<../../.gitbook/assets/Unknown image (1)>)
-  3. Test both rules:
-  * Neighbor 1 should now attempt an RDP session to the middle computer.
-  * Have Neighbor 2 attempt to ping the middle computer.
-  * \*\*Deliverable 3:\*\*Take a screenshot of a failed RDP session for Neighbor 1 or Neighbor 2.
+
+
+1. Why might this default make sense from a security perspective?**It saves a lot of time, but from a security perspective it makes sure that services that require these services to function are able to, and that way rules that need not be allowed can be cut off at a later date.**
+2. Create a new inbound rule to block Remote Desktop.
+
+* New Rule → Port → TCP → Specific port: 3389
+* Block the connection → All profiles → Name it "Block RDP"
+
+2. Create a new inbound rule to block a specific neighbor's IP completely:
+
+* New Rule → Custom → All programs
+* Any protocol → Scope tab
+* Under "Remote IP address" → "These IP addresses" → Add \[neighbor's IP]
+* Under "Local IP address" → "These IP addresses" → Add \[neighbor 2’s IP]
+* Block → All profiles → Name it "Block \[Neighbor 2’s Name]"
+* **Deliverable 2:** Take a screenshot showing your custom firewall rules list
+* ![](<../../.gitbook/assets/Unknown image (1)>)
+
+3. Test both rules:
+
+* Neighbor 1 should now attempt an RDP session to the middle computer.
+* Have Neighbor 2 attempt to ping the middle computer.
+* \*\*Deliverable 3:\*\*Take a screenshot of a failed RDP session for Neighbor 1 or Neighbor 2.
 
 \=![](<../../.gitbook/assets/Unknown image (2)>)
 
-*
-  *
-    * \*\*Deliverable 4:\*\*Take a screenshot of a failed ping from the blocked IP address.
+* \*\*Deliverable 4:\*\*Take a screenshot of a failed ping from the blocked IP address.
 
 ![](<../../.gitbook/assets/Unknown image (3)>)
 
@@ -99,17 +100,13 @@ Now you'll act as a security analyst investigating a simulated incident.
 
 Was blocked multiple times on own system, RDP’d into their system and gained access to it.
 
-*
-  *
-    * All RDP attempts (successful and failed)
+* All RDP attempts (successful and failed)
 
 Made about 5 attempts but could not make it in.
 
 Made it in the last attempt.
 
-*
-  *
-    * **Example:**
+* **Example:**
 
 ![](<../../.gitbook/assets/Unknown image (5)>)
 
@@ -119,26 +116,20 @@ Made it in the last attempt.
 
 Http Requests, unlike event viewer which only displays system processes.
 
-*
-  *
-    * What activity shows up in Event Viewer but NOT in IIS logs?
+* What activity shows up in Event Viewer but NOT in IIS logs?
 
 Vice Versa, system processes.
 
-*
-  *
-    * Which neighbor's blocked web attempts appear in your logs? Why?
+
+
+* Which neighbor's blocked web attempts appear in your logs? Why?
 
 1’s were completely blocked firewall wise, while the other ones were not rejected due to wall so showed in logs.
 
-*
-  *
-    * If you saw 50 Event ID 4625 entries in 2 minutes, what would that indicate?
+* If you saw 50 Event ID 4625 entries in 2 minutes, what would that indicate?
 
 Someone is trying to break in.
 
-*
-  *
-    * How many failed login attempts before you'd investigate?
+* How many failed login attempts before you'd investigate?
 
 Depends but I’d say over 10 within a very very short period of time could be suspicious while throughout a time period would not require investigation.
