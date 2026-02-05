@@ -9,7 +9,8 @@
 
 ## SEC 250
 
-* [Windows Defender Firewall and Advanced Security](sec-250/windows-defender-firewall-and-advanced-security.md)
+* [Windows Defender Firewall and Advanced Security](sec-250/windows-defender-firewall-and-advanced-security/README.md)
+  * [YanezMathew\_AccessControlLabP2](sec-250/windows-defender-firewall-and-advanced-security/yanezmathew_accesscontrollabp2.md)
 
 ## SEC-260-1
 
