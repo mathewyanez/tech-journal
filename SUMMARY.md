@@ -9,7 +9,7 @@
 
 ## SEC 250
 
-* [Page 1](sec-250/page-1.md)
+* [Windows Defender Firewall and Advanced Security](sec-250/windows-defender-firewall-and-advanced-security.md)
 
 ## SEC-260-1
 
