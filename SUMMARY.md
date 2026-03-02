@@ -18,3 +18,4 @@
 
 * [Transport Layer Security (TLS) Lab Notes](sec-260-1/transport-layer-security-tls-lab-notes.md)
 * [What are CA Authority's?](sec-260-1/what-are-ca-authoritys.md)
+* [3/2/2026- Hardening Basics](sec-260-1/3-2-2026-hardening-basics.md)
