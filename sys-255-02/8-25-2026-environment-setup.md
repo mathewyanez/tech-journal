@@ -28,5 +28,15 @@ Make sure that the correct layer 2 connections are made, set adapters to correct
 
 
 
-After that&#x20;
+Deliverable 1:\
+\
+![](../.gitbook/assets/image.png)
 
+Getting this to work was odd. It didn't work, than I reset the router and it did, I believe I didn't press finish in the setup wizard so I had to manually do some things.
+
+Deliverable 2:
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+This took me so much longer than it should have. I forgot to slick save when I turned on the DNS resolver, leading me to looking for different answers using traceroute, trying to figure out if somehow Google was being blocked since I was able to ping [champlain.edu](http://champlain.edu).\
+<br>
