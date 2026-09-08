@@ -6,6 +6,10 @@
 
 * [8/25/2026 Environment Setup](sys-255-02/8-25-2026-environment-setup.md)
 
+***
+
+* [9/7/2026 Lab2](9-7-2026-lab2.md)
+
 ## NCAE&#x20;
 
 * [Linux Cyberpatriot Notes](ncae/linux-cyberpatriot-notes.md)
