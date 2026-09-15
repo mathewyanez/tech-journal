@@ -9,6 +9,7 @@
 ***
 
 * [9/7/2026 Lab2](9-7-2026-lab2.md)
+* [lab03 linux notes](lab03-linux-notes.md)
 
 ## NCAE&#x20;
 
