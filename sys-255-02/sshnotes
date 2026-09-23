@@ -1,0 +1,8 @@
+To stop root from logging in over SSH on Rocky, 
+I opened /etc/ssh/sshd_config and set PermitRootLogin to no.
+I also checked /etc/ssh/sshd_config.d/ to make sure nothing there was setting it back to yes.
+I ran sshd -t to check for errors, then systemctl restart sshd. When I tried to SSH in as root from another
+machine it failed, and I confirmed it with journalctl -u sshd | grep -i failed. The difference between the 
+two logs is that /var/log/btmp is a binary file that only keeps failed login attempts from any source, 
+and you read it with lastb. journalctl -u sshd shows everything the SSH service logs,
+including successful logins, failed logins, and errors, with more detail like the IP and port.
