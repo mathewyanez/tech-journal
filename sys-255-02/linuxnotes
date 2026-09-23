@@ -1,0 +1,10 @@
+To set up file permissions I created users with useradd and groups with groupadd,
+then added users to groups with usermod -aG groupname username.
+I changed who owns a file or folder with chown user:group path
+, which sets both the owner and the group. 
+Permissions are set with chmod using three numbers for user, group, and others,
+where read is 4, write is 2, and execute is 1, so 7 is full access, 6 is read and write,
+5 is read and execute, 4 is read only, and 0 is nothing. I set both directories to 750 so the
+owner has full access, the group can open and list the folder, and everyone else is blocked.
+I set both files to 640 so only the owner can edit, the group can read, and others get nothing.
+You can check permissions with ls -l for files and ls -ld for the directory itself.
