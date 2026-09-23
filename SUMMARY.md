@@ -5,6 +5,7 @@
 ## SYS-255-02
 
 * [8/25/2026 Environment Setup](sys-255-02/8-25-2026-environment-setup.md)
+* [dhcp deep dive notes](sys-255-02/dhcp-deep-dive-notes.md)
 
 ***
 
