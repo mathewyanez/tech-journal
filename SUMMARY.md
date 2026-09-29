@@ -6,6 +6,11 @@
 
 * [8/25/2026 Environment Setup](sys-255-02/8-25-2026-environment-setup.md)
 * [dhcp deep dive notes](sys-255-02/dhcp-deep-dive-notes.md)
+* [Copy of Lab01   FW and Win Client](sys-255-02/copy-of-lab01-fw-and-win-client.md)
+* [Copy of Module 02\_ A Deeper Look at DNS](sys-255-02/copy-of-module-02_-a-deeper-look-at-dns.md)
+* [MathewYanez Lab 03   Linux](sys-255-02/mathewyanez-lab-03-linux.md)
+* [Copy of Lab04   DHCP](sys-255-02/copy-of-lab04-dhcp.md)
+* [ADDS Lab](sys-255-02/adds-lab.md)
 
 ***
 
