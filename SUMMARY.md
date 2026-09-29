@@ -15,6 +15,7 @@
 ***
 
 * [9/7/2026 Lab2](9-7-2026-lab2.md)
+* [Page 1](page-1.md)
 * [lab03 linux notes](lab03-linux-notes.md)
 
 ## NCAE&#x20;
@@ -27,6 +28,14 @@
 * [YanezMathew\_SEC250GruyereClassActivtySP26](sec-250/yanezmathew_sec250gruyereclassactivtysp26.md)
 * [Windows Defender Firewall and Advanced Security](sec-250/windows-defender-firewall-and-advanced-security.md)
   * [YanezMathew\_AccessControlLabP2](sec-250/windows-defender-firewall-and-advanced-security/yanezmathew_accesscontrollabp2.md)
+
+## Tech Journal
+
+* [ADDS Lab](tech-journal/adds-lab.md)
+* [MathewYanez Lab 03   Linux](tech-journal/mathewyanez-lab-03-linux.md)
+* [Copy of Lab04   DHCP](tech-journal/copy-of-lab04-dhcp.md)
+* [Copy of Module 02\_ A Deeper Look at DNS](tech-journal/copy-of-module-02_-a-deeper-look-at-dns.md)
+* [Copy of Lab01   FW and Win Client](tech-journal/copy-of-lab01-fw-and-win-client.md)
 
 ## SEC-260-1
 
