@@ -11,6 +11,7 @@
 * [MathewYanez Lab 03   Linux](sys-255-02/mathewyanez-lab-03-linux.md)
 * [Copy of Lab04   DHCP](sys-255-02/copy-of-lab04-dhcp.md)
 * [ADDS Lab](sys-255-02/adds-lab.md)
+* [Lab05 Server Core File Server Tech Journal](sys-255-02/lab05-server-core-file-server-tech-journal.md)
 
 ***
 
