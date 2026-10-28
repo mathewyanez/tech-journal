@@ -4,6 +4,8 @@
 
 ## SYS-255-02
 
+* [lab linux domain join](sys-255-02/lab-linux-domain-join.md)
+* [lab apache firewall](sys-255-02/lab-apache-firewall.md)
 * [8/25/2026 Environment Setup](sys-255-02/8-25-2026-environment-setup.md)
 * [dhcp deep dive notes](sys-255-02/dhcp-deep-dive-notes.md)
 * [Copy of Lab01   FW and Win Client](sys-255-02/copy-of-lab01-fw-and-win-client.md)
